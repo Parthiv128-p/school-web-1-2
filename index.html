@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+<nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 99;">
+    <div class="navbar-header"> 
+      <button class="navbar-toggle" data-toggle="collapse" data-target="#menu"> 
+          <span class="icon-bar"> </span>
+          <span class="icon-bar"> </span>
+          <span class="icon-bar"> </span>
+                </button>
+        <a class="navbar-brand" href="#"> Deens Academy Gunjur </a>
+    </div>
+    <div id="menu" class="navbar-collapse"> 
+    <ul class="nav navbar-nav">
+        <li> <a href="#campus_life"> Campus life</a></li>
+        <li> <a href="#achievements"> Achievements </a></li>
+        <li> <a href="#new">what's New </a></li>
+        <li> <a href="#alumni">Alumni</a></li>
+        <li> <a href="#contact">Contact us</a></li>
+        </ul>
+    </div>
+    </nav>
+    <div class="mail"> 
+    <marquee id="mailid" onmouseover="this.stop()" onmouseout="this.start()"> ****feel fre to ask your admission at (reception@deensacademy.com)**** </marquee>
+    </div>
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://tse4.mm.bing.net/th?id=OIP.Ro88k6LLiEfugsT21uUHEAHaE7&pid=Api&P=0&w=242&h=161">
+                    <h4 class="text-capitalize"><kbd>school ground</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-capitalize text-success text-left"> Was built in 1980</h5>
+                    <p class="text-muted text-left"> Write something about the mentioned place</p>
+                    
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left text-muted">Write something about the mentioned place</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+           National SAT Olympiad 2016 <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Amrita stood Rank 8 in India and Rank 2 in Bangalore.
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Adi Kumar Of Grade 5 Wins Dr. APJ Abdul Kalam IGNITE Award<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Adi Kumar of Grade 5 wins Dr. APJ Abdul Kalam IGNITE Award
+                </h5>
+                <p>Abdul Kalam We are proud to announce Adi Kumar of Grade 5 was among the 31 IGNITE Award winners (Infact one of the youngest children to participate and win the award).</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Deens among TOP 10 CBSE Schools in India </p><i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://www.deenscollege.com/wp-content/uploads/2018/11/Deens-cafe-2.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Deens among TOP 10 CBSE Schools in India 
+                </h5>
+                <p><p>Abdul Kalam We are proud to announce Adi Kumar of Grade 5 was among the 31 IGNITE Award winners (Infact one of the youngest children to participate and win the award).</p>
+            </div>
+    </div>
+    
+    </div>
+    <div class="page-header" id="new">
+    <h2 class="text-capitalize"> `Whats new </h2>
+        <ul class="list-group">
+        <li class="list-droup-items list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment-li">
+            <h4> DENNS CAFE</h4>
+            <img src="https://i.posting.cc/bZcSmqsb/sc1.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col xs-12">
+                The School shows concern for children’s’ nutrition. Students are encouraged to bring wholesome and nutritious food from home. Chips, pizzas, burgers or any other junk food items are not encouraged on the campus. Breakfast/lunch at school will be supervised by teachers to encourage good table etiquette.
+            </p>
+            </li>    
+        </ul>
+        <ul class="list-group">
+        <li class="list-droup-items list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment-li">
+            <h4> Eduflex</h4>
+            <img src="https://i.posting.cc/bZcSmqsb/sc1.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col xs-12">
+                At Deens Academy, we believe that  parental engagement can positively influence pupil learning and progress.
+Eduflex  is a School Information Management Software (ERP) created by Flexiapps Solutions Pvt Ltd that enables important information from the School to reach you.
+
+This software powers our admission application form and enables parents to create and update student information directly. Later, Alerts, notices, circulars, school calendar and newsletters will be sent to parents and students through Eduflex on a regular basis.
+
+Assessment reports too will be sent to individual students on their respective ids.
+
+Parents can also update personal details such as photographs, phone numbers, etc. Fees receipts can be downloaded from Eduflex directly.
+
+Parents are requested to check ‘Eduflex parent portal’ daily for updates.
+            </p>
+            </li>    
+        </ul>
+    </div> 
+    </div>
+    <div class="page-header" id="contact">
+    <h2 class="text-capitalize"> Contact us </h2>
+       
+        
+    
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.935323884099!2d77.7397305144984!3d12.975988490853062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11ff0416e105%3A0xb5cec4d301ed451e!2sThe%20Deens%20Academy!5e0!3m2!1sen!2sin!4v1650280782900!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </div>
+    <div id="details"> <img  id="img" src="data:image/png;base64,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" class="img-responsive img-circle"><h3>
+        Shanti menon
+        </h3>
+    <h2> Deens Academy Gunjur</h2>
+        <div> <a href="school@gmail.com?Subject=Hi"target="_blank"> <h5><i class="fa fa-envelope">  schoolmail </i> </h5></a>
+        <a href="school@gmail.com?Subject=Hi"target="_blank"> <h5><i class="fa fa-instagram">7022421969/ 7406428520</i> </h5></a>
+        <a href="school@gmail.com?Subject=Hi"target="_blank"> <h5><i class="fa fa-phone">reception@deensacademy.com</i> </h5></a></div>
+    </div>
+    <div id="footer"></div>
+    </body> 
+</html>
+
